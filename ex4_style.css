@@ -17,7 +17,7 @@ img:hover{
     transform: scale(1.05);
 }
 #b1{
-    border-radius: 2px;
+    border: 2px solid black;
 }
 #b2{
     border-radius: 4px;
