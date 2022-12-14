@@ -5,6 +5,7 @@ h1{
     color: cadetblue ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 img{
     height: 200px;
     transition: 0.5s;
@@ -16,6 +17,7 @@ img{
 img:hover{
     transform: scale(1.05);
 }
+
 #b1{
     border: 2px solid black;
 }
@@ -36,11 +38,18 @@ button{
 button:hover{
     background-color: darkblue;
 }
-#cityLink{
-    color: rgb(57, 125, 81);
-}
-
-#cityLink:focus{
-    color:rgb(207, 61, 182);
-
-}
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
