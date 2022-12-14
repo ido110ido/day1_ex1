@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .img{
-            width: 200px;
-            height: 200px;
-        }
-    </style>
+    <!-- font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ex4_style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
 </head>
 <body>
-    <h1 style="color: cadetblue ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Ido Atias</h1>
+    <h1>Ido Atias</h1>
     <h2> Im 23 yo from hadera, a Medium size city not very pretty one, my favorite hobby is to sleep</h2>
     <p style="width: 400px;">I don't drink <span>coffee</span>, I take tea, my dear
         I like my toast done on one side
@@ -22,15 +21,15 @@
     </p>
 
     <section>
-        <img class="img" alt="first img" src="monkey.jpg">
-        <img class="img" alt="second img" src="kohPhiPhi.jpg">
-        <img class="img" alt="third img" src="random.jpg">
+        <img  alt="first img" src="monkey.jpg" >
+        <img  alt="second img" src="kohPhiPhi.jpg" id="b1">
+        <img  alt="third img" src="random.jpg" id="b2">
     </section>
 
     <ul style="font-size: 15px;">
         <li> burger</li>
-        <li> pizza</li>
-        <li> spaghetti</li>
+        <li style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> lazania</li>
+        <li style="font-weight: bold;"> spaghetti</li>
         <li> cheesecake</li>
     </ul>
 
@@ -38,7 +37,7 @@
         <h2> Hadera</h2>
         <a href="https://www.google.com/maps/place/%D7%97%D7%93%D7%A8%D7%94%E2%80%AD/
         @32.4406206,34.9938567,12z/data=!3m1!4b1!4m5!3m4!1s0x151d124252d125bb
-        :0x3abe13857b8fe43d!8m2!3d32.4340458!4d34.9196518">here you can see what the city hadera located</a>
+        :0x3abe13857b8fe43d!8m2!3d32.4340458!4d34.9196518" id="cityLink">here you can see what the city hadera located</a>
     </section>
 
     <table border="1px">
@@ -59,5 +58,6 @@
             <td>far from the center of israel</td>
         </tr>
     </table>
+    <div style="text-align: center;"><button type="button">click to see more</button></div>
 </body>
 </html>
