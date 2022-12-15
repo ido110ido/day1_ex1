@@ -11,8 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
 </head>
-<body>
+<header>
     <h1>Ido Atias</h1>
+    <div class="header_line">
+        <h4>Places I love</h4>
+        <h2>A Bit About Me</h2>
+        <h4>Places I love</h4>
+    </div>
+</header>
+<body>
+
     <h2> Im 23 yo from hadera, a Medium size city not very pretty one, my favorite hobby is to sleep</h2>
     <p style="width: 400px;">I don't drink <span>coffee</span>, I take tea, my dear
         I like my toast done on one side
@@ -20,11 +28,11 @@
         I'm an Englishman in New York
     </p>
 
-    <section id="img_sticky">
-        <img  alt="first img" src="monkey.jpg" >
-        <img  alt="second img" src="kohPhiPhi.jpg" id="b1">
-        <img  alt="third img" src="random.jpg" id="b2">
-    </section>
+    <div id="pictur_line">
+        <img  alt="first img" src="/images/monkey.jpg" >
+        <img  alt="second img" src="/images/kohPhiPhi.jpg" id="b1">
+        <img  alt="third img" src="/images/random.jpg" id="b2">
+    </div>
 
     <ul style="font-size: 15px;" id="imege_line">
         <li> burger</li>
@@ -41,7 +49,11 @@
     </section>
 
     <table border="1px">
-        <tr>
+        <colgroup>
+            <col   style="background-color: aqua;">
+            <col   style="background-color: rgb(231, 108, 108);">
+        </colgroup>
+        <tr style="background-color: gray;">
             <th> pros</th>
             <th> cons</th>
         </tr>
@@ -59,5 +71,10 @@
         </tr>
     </table>
     <div style="text-align: center;"><button type="button">click to see more</button></div>
+
 </body>
+<footer>
+    <h3>Ido Atias</h3>
+    <h3 >15.12.22</h3>
+</footer>
 </html>
