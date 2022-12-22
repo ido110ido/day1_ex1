@@ -14,8 +14,8 @@
 
 <body>
     <script src="/ex4.js"></script>
-<header>
-    <h1>Ido Atias</h1>
+<header id="head">
+    <h1 id="h1">Ido Atias</h1>
     <div class="header_line">
         <h4 id="Places_I_love" onclick="delayHandleClick(this.id)">Places I love</h4>
         <h2>A Bit About Me</h2>
@@ -71,8 +71,10 @@
             <td>far from the center of israel</td>
         </tr>
     </table>
-    <div style="text-align: center; margin: 10px;"><button type="button">click to see more</button></div>
-
+    <div class="butten_line">
+        <div><button type="button">click to see more</button></div>
+        <div><button type="button" id="dark-mood" onclick="Clicked()">click to dark mood</button></div>
+    </div>
 </body>
 <footer>
     <h3>Ido Atias</h3>

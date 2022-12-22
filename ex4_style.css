@@ -4,6 +4,7 @@
 }
 body{
   margin: 2px;
+  transition: 0.5s;
 }
 h1{
     color: cadetblue ;
@@ -12,6 +13,7 @@ h1{
     top: 0;
     text-align: center;
     margin: 0px;
+    transition: 0.5s;
 }
 
 img{
@@ -21,7 +23,7 @@ img{
     /* object-fit: contain; */
     max-height: 200px;
     max-width: 28vw;
-    height: auto;
+    /*height: auto;
     width: auto\9; /* ie8 */
 
 }
@@ -44,6 +46,8 @@ button{
     color: white;
     font-size: 2ex;
     border-radius: 1em;
+    transition: 0.5s;
+
     
 }
 button:hover{
@@ -94,7 +98,7 @@ a:link {
     z-index: 1;
     left: 0px;
     border-radius:0px 0px 20px 20px; 
-
+    transition: 0.5s;
 
   }
   .header_line{
@@ -111,3 +115,25 @@ a:link {
   h4:hover{
     transform: scale(1.05);
   }
+
+  .butten_line{
+    height: fit-content;
+    width:-webkit-fill-available;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 20px;
+  }
+
+/* dark mood def */
+
+.dark_mood{
+  background-color: black;
+  color: white;
+}
+.dark_mood_header{
+  background-color: darkcyan;
+  color: white;
+}
+.dark_mood_h1{
+  color: bisque;
+}
