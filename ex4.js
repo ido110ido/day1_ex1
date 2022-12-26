@@ -15,22 +15,13 @@ function Clicked(){
     
 }
 
-function checkPasswordStrength(password) {
-    if (password.length < 8) {
-      return "weak password";
+  function renderList(items) {
+    let makeList = `<ul>`;
+    for (let index = 0; index < items.length; index++) {
+      makeList += `<li>${items[index]}</li>`;
     }
-    if (!password.match(/[a-z]/)) {
-      return "weak password";
-    }
-    if (!password.match(/[A-Z]/)) {
-      return "weak password";
-    }
-    if (!password.match(/[0-9]/)) {
-      return "weak password";
-    }
-    if (password.match(/\s/)) {
-      return "weak password";
-    }
-    return "strong password";
+    makeList += `</ul>`;
+    console.log(makeList);
+     return makeList;
   }
-  
+  document.getElementById('foodList').innerHTML = renderList(['pizza', 'tacos', 'ice cream']);
