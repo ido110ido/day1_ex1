@@ -21,7 +21,7 @@ img{
     margin: 5px;
     
     /* object-fit: contain; */
-    max-height: 200px;
+    height: fit-content;;
     max-width: 28vw;
     /*height: auto;
     width: auto\9; /* ie8 */
@@ -69,7 +69,8 @@ a:link {
     color: blue;
   }
   #pictur_line{
-    text-align: center;
+    display: inline-flex;
+    align-items:center;
   }
   footer{
     left: 0px;

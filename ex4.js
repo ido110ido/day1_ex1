@@ -25,3 +25,29 @@ function Clicked(){
      return makeList;
   }
   document.getElementById('foodList').innerHTML = renderList(['pizza', 'tacos', 'ice cream']);
+
+  const imgArr = [
+    {
+      img:'/images/monkey.jpg',
+      description:'first img'
+    },
+    {
+      img:'/images/kohPhiPhi.jpg',
+      description:'second img'
+    },
+    {
+      img:'/images/random.jpg',
+      description:'third img'
+    }
+  ]
+  function renderImegList(items) {
+    let makeList = ``;
+    for (let index = 0; index < items.length; index++) {
+      makeList += `<div>`
+      makeList += `<img src='${items[index].img}'><p>${items[index].description}</p>`;
+      makeList += `</div>`
+    }
+    console.log(makeList);
+     return makeList;
+  }
+  document.getElementById('pictur_line').innerHTML = renderImegList(imgArr);
