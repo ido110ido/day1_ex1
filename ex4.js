@@ -40,14 +40,14 @@ function Clicked(){
       description:'third img'
     }
   ]
-  function renderImegList(items) {
-    let makeList = ``;
-    for (let index = 0; index < items.length; index++) {
-      makeList += `<div>`
-      makeList += `<img src='${items[index].img}'><p>${items[index].description}</p>`;
-      makeList += `</div>`
-    }
-    console.log(makeList);
-     return makeList;
-  }
-  document.getElementById('pictur_line').innerHTML = renderImegList(imgArr);
+  // function renderImegList(items) {
+  //   let makeList = ``;
+  //   for (let index = 0; index < items.length; index++) {
+  //     makeList += `<div>`
+  //     makeList += `<img src='${items[index].img}'><p>${items[index].description}</p>`;
+  //     makeList += `</div>`
+  //   }
+  //   console.log(makeList);
+  //    return makeList;
+  // }
+  // document.getElementById('pictur_line').innerHTML = renderImegList(imgArr);

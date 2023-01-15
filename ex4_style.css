@@ -1,5 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     /* margin: 0px; */
 }
 body{
@@ -18,11 +20,10 @@ h1{
 
 img{
     transition: 0.2s;
-    margin: 5px;
     
     /* object-fit: contain; */
-    height: fit-content;;
-    max-width: 28vw;
+    height: 100%;
+    max-width: 100%;
     /*height: auto;
     width: auto\9; /* ie8 */
 
@@ -137,4 +138,33 @@ a:link {
 }
 .dark_mood_h1{
   color: bisque;
+}
+.gridImage{
+  display: grid;
+  gap: 1em;
+  margin: 20%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.ImgOne{
+  grid-area:1/1/span 2/span 3 ;
+}
+.Imgtwo{
+  grid-column-end: span 2 ;
+}
+.Imgthree{
+  grid-column-end: span 3 ;
+  grid-row-end: span 2;
+}
+@media (max-width: 500px) {
+  .header_line{
+    display: none;
+  }
+  footer{
+    position: sticky;
+    bottom: 0px;
+    height: 2em;
+  }
 }
